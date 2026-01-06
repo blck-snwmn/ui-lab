@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "apps/shadcn/vega" },
+    { "path": "apps/shadcn/nova" },
+    { "path": "apps/shadcn/maia" },
+    { "path": "apps/shadcn/lyra" },
+    { "path": "apps/shadcn/mira" },
+    { "path": "apps/react-bits" },
+    { "path": "apps/ripple" }
+  ]
+}
