@@ -1,7 +1,9 @@
 {
   "name": "ui-lab",
   "private": true,
-  "workspaces": ["apps/**"],
+  "workspaces": [
+    "apps/**"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -12,7 +14,10 @@
     "typecheck": "tsc --build --noEmit"
   },
   "devDependencies": {
-    "oxlint": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "oxfmt": "^0.21.0",
+    "oxlint": "^1.36.0",
+    "oxlint-tsgolint": "^0.10.0",
     "turbo": "^2.0.0",
     "typescript": "^5.0.0"
   },
