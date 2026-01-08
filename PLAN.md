@@ -38,7 +38,8 @@ ui-lab/
 │   │   ├── maia/
 │   │   ├── lyra/
 │   │   └── mira/
-│   ├── react-bits/       # React Bits demos (TODO)
+│   ├── react-bits/       # React Bits demos
+│   ├── three-js/         # Three.js demos (TODO)
 │   └── ripple/           # ripple.js demos (TODO)
 ├── packages/             # Shared packages (if needed)
 ├── .oxlintrc.json        # Root oxlint config
@@ -66,7 +67,11 @@ ui-lab/
 
 ### Phase 4: React Bits Demo
 
-- [ ] Create React Bits demo app
+- [x] Create React Bits demo app
+- [x] Text animations (ShinyText)
+- [x] Interactions (ClickSpark, Magnet, StarBorder)
+- [x] Components (SpotlightCard, TiltedCard)
+- [x] Backgrounds (Squares, Particles with OGL)
 
 ### Phase 5: ripple.js Demo
 
@@ -83,3 +88,8 @@ ui-lab/
 ### Phase 7: Vitest Browser Mode
 
 - [ ] Explore Vitest Browser Mode for testing
+
+### Phase 8: Three.js Demo
+
+- [ ] Create Three.js demo app
+- [ ] Explore 3D rendering capabilities
