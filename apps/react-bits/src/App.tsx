@@ -18,9 +18,7 @@ function App() {
       <main className="max-w-4xl mx-auto space-y-16">
         {/* Text Animations */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-semibold border-b border-gray-700 pb-2">
-            Text Animations
-          </h2>
+          <h2 className="text-2xl font-semibold border-b border-gray-700 pb-2">Text Animations</h2>
           <div className="p-6 bg-gray-900 rounded-lg">
             <p className="text-sm text-gray-500 mb-4">ShinyText</p>
             <ShinyText
@@ -39,9 +37,7 @@ function App() {
           </h2>
 
           <div className="p-6 bg-gray-900 rounded-lg">
-            <p className="text-sm text-gray-500 mb-4">
-              ClickSpark - Click anywhere in the box
-            </p>
+            <p className="text-sm text-gray-500 mb-4">ClickSpark - Click anywhere in the box</p>
             <ClickSpark
               sparkColor="#ffd700"
               sparkSize={12}
@@ -56,9 +52,7 @@ function App() {
           </div>
 
           <div className="p-6 bg-gray-900 rounded-lg">
-            <p className="text-sm text-gray-500 mb-4">
-              Magnet - Hover near the button
-            </p>
+            <p className="text-sm text-gray-500 mb-4">Magnet - Hover near the button</p>
             <div className="flex justify-center py-8">
               <Magnet padding={80} magnetStrength={1.5}>
                 <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors">
@@ -69,9 +63,7 @@ function App() {
           </div>
 
           <div className="p-6 bg-gray-900 rounded-lg">
-            <p className="text-sm text-gray-500 mb-4">
-              StarBorder - Animated border effect
-            </p>
+            <p className="text-sm text-gray-500 mb-4">StarBorder - Animated border effect</p>
             <div className="flex justify-center py-4">
               <StarBorder color="#00ffff" speed="4s">
                 Star Border Button
@@ -82,31 +74,24 @@ function App() {
 
         {/* Components */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-semibold border-b border-gray-700 pb-2">
-            Components
-          </h2>
+          <h2 className="text-2xl font-semibold border-b border-gray-700 pb-2">Components</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <SpotlightCard spotlightColor="rgba(59, 130, 246, 0.4)">
               <h3 className="text-xl font-bold mb-2">SpotlightCard</h3>
               <p className="text-gray-400">
-                Move your mouse over this card to see the spotlight effect
-                following your cursor.
+                Move your mouse over this card to see the spotlight effect following your cursor.
               </p>
             </SpotlightCard>
 
             <SpotlightCard spotlightColor="rgba(236, 72, 153, 0.4)">
               <h3 className="text-xl font-bold mb-2">Another Card</h3>
-              <p className="text-gray-400">
-                The spotlight color can be customized for each card.
-              </p>
+              <p className="text-gray-400">The spotlight color can be customized for each card.</p>
             </SpotlightCard>
           </div>
 
           <div className="p-6 bg-gray-900 rounded-lg">
-            <p className="text-sm text-gray-500 mb-4">
-              TiltedCard - 3D tilt effect on hover
-            </p>
+            <p className="text-sm text-gray-500 mb-4">TiltedCard - 3D tilt effect on hover</p>
             <div className="flex justify-center">
               <TiltedCard
                 imageSrc="https://picsum.photos/300/300"
@@ -124,9 +109,7 @@ function App() {
 
         {/* Backgrounds */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-semibold border-b border-gray-700 pb-2">
-            Backgrounds
-          </h2>
+          <h2 className="text-2xl font-semibold border-b border-gray-700 pb-2">Backgrounds</h2>
           <div className="rounded-lg overflow-hidden">
             <p className="text-sm text-gray-500 mb-4">
               Squares - Animated grid background (hover over squares)
