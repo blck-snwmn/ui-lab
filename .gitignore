@@ -33,5 +33,3 @@ logs
 .DS_Store
 Thumbs.db
 
-# bun
-bun.lock
