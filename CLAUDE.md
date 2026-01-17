@@ -12,12 +12,12 @@ bun install
 bun run dev
 
 # Development (single app)
-bun run dev --filter=@ui-lab/vega
-bun run dev --filter=@ui-lab/react-bits
+bun run dev --filter=@frontend-lab/vega
+bun run dev --filter=@frontend-lab/react-bits
 
 # Build
 bun run build                        # all workspaces
-bun run build --filter=@ui-lab/lyra  # single app
+bun run build --filter=@frontend-lab/lyra  # single app
 
 # Linting (oxlint only - ESLint is forbidden)
 bun run lint                # all workspaces

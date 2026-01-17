@@ -1,5 +1,5 @@
 {
-  "name": "ui-lab",
+  "name": "frontend-lab",
   "private": true,
   "workspaces": [
     "apps/**"

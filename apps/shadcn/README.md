@@ -30,11 +30,11 @@ The color palette is a shared neutral grayscale - color customization is left to
 bun run dev
 
 # Run individually
-bun run dev --filter=@ui-lab/vega
-bun run dev --filter=@ui-lab/nova
-bun run dev --filter=@ui-lab/maia
-bun run dev --filter=@ui-lab/lyra
-bun run dev --filter=@ui-lab/mira
+bun run dev --filter=@frontend-lab/vega
+bun run dev --filter=@frontend-lab/nova
+bun run dev --filter=@frontend-lab/maia
+bun run dev --filter=@frontend-lab/lyra
+bun run dev --filter=@frontend-lab/mira
 ```
 
 Note: When running multiple apps simultaneously, Vite auto-assigns available ports starting from 5173.
