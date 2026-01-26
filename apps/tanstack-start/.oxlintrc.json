@@ -1,4 +1,4 @@
 {
-	"extends": ["../../.oxlintrc.json"],
-	"ignorePatterns": ["src/routeTree.gen.ts"]
+  "extends": ["../../.oxlintrc.json"],
+  "ignorePatterns": ["src/routeTree.gen.ts"]
 }
